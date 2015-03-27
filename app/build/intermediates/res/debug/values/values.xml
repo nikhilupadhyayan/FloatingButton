@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="balancer_window">
+		<item name="1">24 Hours</item>
+		<item name="2">7 Days</item>
+		<item name="3">30 Day</item>
+	</string-array>
+    <string-array name="balancer_window_values">
+		<item name="1">1</item>
+		<item name="2">2</item>
+		<item name="2">3</item>
+	</string-array>
+    <string-array name="tracking_accuracy">
+		<item name="1">None</item>
+		<item name="2">Medium</item>
+		<item name="3">Tight</item>
+	</string-array>
+    <string-array name="tracking_accuracy_values">
+		<item name="1">1</item>
+		<item name="2">2</item>
+		<item name="2">3</item>
+	</string-array>
+    <string-array name="tracking_mechanism">
+		<item name="1">GPS</item>
+		<item name="2">Wireless Networks</item>
+	</string-array>
+    <string-array name="tracking_mechanism_values">
+		<item name="1">1</item>
+		<item name="2">2</item>
+	</string-array>
+    <!-- From: file:/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Health Manager</string>
+    <string name="calories_burned">Calories Burned: </string>
+    <string name="calories_consumed">Calories Consumed: </string>
+    <string name="calories_total">Calorie Target Progress: </string>
+    <string name="exercise_session">Exercise Sessions: </string>
+    <string name="hello">Hello World!</string>
+</resources>

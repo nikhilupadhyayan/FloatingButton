@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_session"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="1pt"/>
+    <TextView
+    	android:id="@+id/sub_title"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:text="(Tap a session for more info)"
+    	android:layout_centerHorizontal="true"
+    	android:layout_below="@+id/title"
+    	android:paddingBottom="5pt"/>
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:text="Session Name:" 
+    	android:paddingLeft="3pt"
+    	android:paddingRight="11pt" 
+    	android:id="@+id/name" 
+    	android:layout_width="wrap_content" 
+    	android:layout_below="@+id/sub_title"/>
+   	<TextView 
+   		android:layout_height="wrap_content" 
+   		android:text="Cal. Burned:" 
+   		android:id="@+id/burned" 
+   		android:layout_width="wrap_content" 
+   		android:layout_below="@+id/sub_title" 
+   		android:layout_alignParentRight="true" 
+   		android:paddingRight="5pt"/>
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:text="Distance:" 
+    	android:paddingRight="11pt" 
+    	android:id="@+id/distance" 
+    	android:layout_width="wrap_content" 
+    	android:layout_toLeftOf="@id/burned"
+    	android:layout_below="@+id/sub_title"/>
+   	<ListView 
+   		android:layout_height="wrap_content" 
+   		android:layout_width="wrap_content" 
+   		android:id="@+id/exercise_info_list" 
+   		android:layout_below="@+id/name" 
+   		android:paddingLeft="4pt"/>
+   	</RelativeLayout><!-- From: file:/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/main/res/layout/exercise_tab.xml -->

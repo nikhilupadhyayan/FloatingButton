@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="Pedometer Options">
+		<EditTextPreference
+		    android:summary="Percentage of default value"
+		    android:defaultValue="100"
+		    android:title="Step Detection Sensitivity"
+		    android:inputType="number"
+		    android:key="stepSensitivity" />
+		<EditTextPreference
+		    android:summary="The length of your steps when exercising (centimeters)"
+		    android:defaultValue="60"
+		    android:title="Step Length"
+		    android:inputType="number"
+		    android:key="stepLength" />
+		<CheckBoxPreference
+			android:title="Keep Screen On"
+			android:defaultValue="false"
+			android:summary="Use only if accelerometer stops when screen turns off (some HTC phones)"
+			android:key="screenCheck" />
+		<ListPreference
+			android:title="Tracking Mechanism"
+			android:summary="Chooses how to track your location"
+			android:defaultValue="1"
+			android:entries="@array/tracking_mechanism"
+			android:entryValues="@array/tracking_mechanism_values"
+			android:key="trackingMechanism"/>
+		<EditTextPreference
+		    android:summary="Choose frequency of location-based distance updates"
+		    android:defaultValue="6"
+		    android:title="Location Update Interval"
+		    android:inputType="numberDecimal"
+		    android:key="updateInterval" />
+		<ListPreference
+			android:title="Tracking Accuracy"
+			android:summary="Choose how tightly the app tracks your location"
+			android:defaultValue="2"
+			android:entries="@array/tracking_accuracy"
+			android:entryValues="@array/tracking_accuracy_values"
+			android:key="trackingAccuracy"/>
+	</PreferenceCategory>
+	<PreferenceCategory
+    	android:title="Health Manager Options">
+		<EditTextPreference
+		    android:summary="Your body weight in kilograms"
+		    android:defaultValue="70"
+		    android:title="Body Weight"
+		    android:inputType="numberDecimal"
+		    android:key="bodyWeight" />
+		<EditTextPreference
+		    android:summary="Minimum percentage of calorie intake to burn during exercise"
+		    android:defaultValue="30"
+		    android:title="Minimum Calorie Usage"
+		    android:inputType="numberDecimal"
+		    android:key="caloriePercentage" />
+		<ListPreference
+			android:title="Calorie Balance Window"
+			android:summary="Target period over which to balance calories"
+			android:defaultValue="1"
+			android:entries="@array/balancer_window"
+			android:entryValues="@array/balancer_window_values"
+			android:key="balancingWindow"/>
+	</PreferenceCategory>
+</PreferenceScreen>
+<!-- From: file:/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/main/res/xml/preferences.xml -->

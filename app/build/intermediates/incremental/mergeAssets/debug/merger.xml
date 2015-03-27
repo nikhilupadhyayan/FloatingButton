@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/main/assets"><file name="fda_food_consolidated.txt" path="/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/main/assets/fda_food_consolidated.txt"/></source></dataSet><dataSet config="debug"><source path="/Users/nikhilupadhyaya/Android-Health-Coach1/app/src/debug/assets"/></dataSet></merger>
